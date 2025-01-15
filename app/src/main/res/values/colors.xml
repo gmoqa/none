@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ BASIC COLORS ============ -->
+    <color name="black">#1A1A1A</color>  <!-- Softer black for less eye strain -->
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- ============ MATERIAL DESIGN 3 THEME COLORS ============ -->
+    <!-- Research-based autism-friendly palette -->
+
+    <!-- Primary (Soft Blue - Calming) -->
+    <color name="md_theme_primary">#4A90E2</color>
+    <color name="md_theme_on_primary">#FFFFFF</color>
+    <color name="md_theme_primary_container">#D6E8F7</color>
+    <color name="md_theme_on_primary_container">#1A1A1A</color>
+
+    <!-- Secondary (Sage Green - Safe, Tranquil) -->
+    <color name="md_theme_secondary">#72C604</color>
+    <color name="md_theme_on_secondary">#000000</color>
+    <color name="md_theme_secondary_container">#E8F5D8</color>
+    <color name="md_theme_on_secondary_container">#1A1A1A</color>
+
+    <!-- Tertiary (Muted Lavender - Soothing) -->
+    <color name="md_theme_tertiary">#B4A7D6</color>
+    <color name="md_theme_on_tertiary">#1A1A1A</color>
+    <color name="md_theme_tertiary_container">#E8E4F0</color>
+    <color name="md_theme_on_tertiary_container">#1A1A1A</color>
+
+    <!-- Error (Soft Coral instead of harsh red) -->
+    <color name="md_theme_error">#F4A582</color>
+    <color name="md_theme_on_error">#FFFFFF</color>
+
+    <!-- Surface & Background -->
+    <color name="md_theme_surface">#FFFFFF</color>
+    <color name="md_theme_on_surface">#1A1A1A</color>
+    <color name="md_theme_surface_variant">#F8F9FA</color>
+    <color name="md_theme_on_surface_variant">#1A1A1A</color>
+    <color name="md_theme_background">#F8F9FA</color>  <!-- Off-white to reduce eye strain -->
+    <color name="md_theme_on_background">#1A1A1A</color>
+
+    <!-- Outline -->
+    <color name="md_theme_outline">#E8EAED</color>
+
+    <!-- ============ COMMUNICATION BUTTON COLORS ============ -->
+    <!-- Distributed calming colors - avoid overstimulation -->
+    <color name="button_1">#4A90E2</color>  <!-- Soft Blue -->
+    <color name="button_2">#72C604</color>  <!-- Sage Green -->
+    <color name="button_3">#B4A7D6</color>  <!-- Muted Lavender -->
+    <color name="button_4">#BCD19E</color>  <!-- Mint Green -->
+    <color name="button_5">#F4A582</color>  <!-- Soft Coral -->
+    <color name="button_6">#8AB4D6</color>  <!-- Light Blue -->
+    <color name="button_7">#A8D8EA</color>  <!-- Sky Blue -->
+    <color name="button_8">#FFD3B6</color>  <!-- Peach -->
+    <color name="button_9">#D4A5A5</color>  <!-- Dusty Rose -->
+    <color name="button_10">#9FD8CB</color> <!-- Seafoam -->
+    <color name="button_11">#C5A3E0</color> <!-- Soft Purple -->
+    <color name="button_12">#F4C87A</color> <!-- Pale Yellow -->
+
+    <!-- ============ UTILITY COLORS ============ -->
+    <color name="white_alpha_32">#52FFFFFF</color>
+    <color name="black_alpha_12">#1F000000</color>
+    <color name="ic_launcher_background">#4A90E2</color>
+
+    <!-- Accent colors (use sparingly) -->
+    <color name="accent_mint">#BCD19E</color>
+    <color name="accent_pale_yellow">#F4C87A</color>
+</resources>

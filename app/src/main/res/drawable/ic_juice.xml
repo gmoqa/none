@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Glass -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,40 L45,100 L75,100 L80,40 Z"/>
+
+    <!-- Straw -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M55,20 L57,20 L60,70 L58,70 Z"/>
+
+    <!-- Liquid -->
+    <path
+        android:fillColor="#FFA726"
+        android:fillAlpha="0.8"
+        android:pathData="M43,60 L45,100 L75,100 L77,60 Z"/>
+
+    <!-- Orange slice -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M60,50 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"/>
+</vector>

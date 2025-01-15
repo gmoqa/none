@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ TOUCH TARGETS ============ -->
+    <!-- Minimum touch target for accessibility -->
+    <dimen name="touch_target_min">48dp</dimen>
+
+    <!-- Recommended for children (larger motor skills) -->
+    <dimen name="touch_target_recommended">64dp</dimen>
+
+    <!-- Large touch target for communication board -->
+    <dimen name="touch_target_large">96dp</dimen>
+
+    <!-- ============ BUTTON SIZES ============ -->
+    <dimen name="button_height_standard">64dp</dimen>
+    <dimen name="button_height_large">80dp</dimen>
+
+    <!-- Communication button - Extra large for children -->
+    <dimen name="button_communication_size">110dp</dimen>
+
+    <!-- ============ SPACING ============ -->
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_xlarge">32dp</dimen>
+    <dimen name="spacing_xxlarge">48dp</dimen>
+
+    <!-- Button spacing - generous to prevent mis-taps -->
+    <dimen name="button_spacing">12dp</dimen>
+    <dimen name="button_spacing_generous">16dp</dimen>
+
+    <!-- ============ CORNERS ============ -->
+    <dimen name="corner_radius_small">12dp</dimen>
+    <dimen name="corner_radius_medium">20dp</dimen>
+    <dimen name="corner_radius_large">28dp</dimen>
+
+    <!-- ============ ELEVATION ============ -->
+    <dimen name="elevation_low">2dp</dimen>
+    <dimen name="elevation_medium">4dp</dimen>
+    <dimen name="elevation_high">8dp</dimen>
+
+    <!-- ============ TEXT SIZES ============ -->
+    <!-- Extra large for children -->
+    <dimen name="text_size_display">36sp</dimen>
+    <dimen name="text_size_headline_large">32sp</dimen>
+    <dimen name="text_size_headline">28sp</dimen>
+    <dimen name="text_size_title">24sp</dimen>
+    <dimen name="text_size_body">18sp</dimen>  <!-- Minimum per WCAG -->
+    <dimen name="text_size_caption">16sp</dimen>
+
+    <!-- Button text - Large for easy reading -->
+    <dimen name="text_size_button">22sp</dimen>
+    <dimen name="text_size_button_large">26sp</dimen>
+
+    <!-- ============ ICON SIZES ============ -->
+    <dimen name="icon_size_small">24dp</dimen>
+    <dimen name="icon_size_medium">32dp</dimen>
+    <dimen name="icon_size_large">48dp</dimen>
+    <dimen name="icon_size_xlarge">64dp</dimen>
+</resources>

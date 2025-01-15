@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Diaper shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,40 Q40,35 60,35 Q80,35 80,40 L80,70 Q80,85 60,85 Q40,85 40,70 Z"/>
+
+    <!-- Tapes/fasteners -->
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M35,45 L40,45 L40,55 L35,55 Z M80,45 L85,45 L85,55 L80,55 Z"/>
+
+    <!-- Center line -->
+    <path
+        android:fillColor="#E3F2FD"
+        android:fillAlpha="0.6"
+        android:pathData="M55,40 L65,40 L65,75 L55,75 Z"/>
+</vector>

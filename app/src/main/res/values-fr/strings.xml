@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">none</string>
+
+    <!-- Welcome / Language Selection -->
+    <string name="welcome_title">Bienvenue à None</string>
+    <string name="welcome_subtitle"></string>
+    <string name="continue_button">Continuer</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">Bouton 1</string>
+    <string name="button_2">Bouton 2</string>
+    <string name="button_3">Bouton 3</string>
+    <string name="button_4">Bouton 4</string>
+    <string name="button_5">Bouton 5</string>
+    <string name="button_6">Bouton 6</string>
+    <string name="edit_mode">Modifier</string>
+    <string name="use_mode">Utiliser</string>
+    <string name="settings">Paramètres</string>
+    <string name="logout">Déconnexion</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Paramètres</string>
+    <string name="sync_section_title">Synchronisation</string>
+    <string name="sync_section_description">Enregistrez vos paramètres sur Google Drive</string>
+    <string name="enable_sync">Activer la synchronisation</string>
+    <string name="sync_status_disabled">Désactivé - Stockage local uniquement</string>
+    <string name="sync_status_enabled">Activé - Synchronisation avec Google Drive</string>
+    <string name="sync_status_logging_in">Connexion en cours...</string>
+    <string name="account_connected">Compte connecté</string>
+    <string name="sign_out">Déconnexion</string>
+    <string name="sync_now">Synchroniser maintenant</string>
+    <string name="close">Fermer</string>
+    <string name="info_title">ℹ️ Information</string>
+    <string name="info_description">• Sans synchronisation : Les données sont enregistrées uniquement sur cet appareil\n• Avec synchronisation : Les données sont enregistrées sur votre Google Drive et synchronisées entre les appareils\n• Coût : 0 € - utilise votre espace Drive gratuit</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">Synchronisation activée</string>
+    <string name="sync_disabled">Synchronisation désactivée. Les données seront enregistrées localement uniquement</string>
+    <string name="syncing">Synchronisation des paramètres...</string>
+    <string name="sync_complete">Synchronisation terminée</string>
+    <string name="sync_error">Erreur de synchronisation : %1$s</string>
+    <string name="sign_in_error">Erreur de connexion : %1$s</string>
+    <string name="connected_with">Connecté avec %1$s</string>
+    <string name="session_closed">Session fermée</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">Configurer le bouton</string>
+    <string name="button_image">Image du bouton</string>
+    <string name="take_photo">Prendre une photo</string>
+    <string name="select_image">Sélectionner une image</string>
+    <string name="button_label">Étiquette du bouton</string>
+    <string name="label_hint">Ex: Eau, Nourriture, Toilettes...</string>
+    <string name="button_sound">Son du bouton</string>
+    <string name="no_audio">Aucun audio enregistré</string>
+    <string name="record">Enregistrer</string>
+    <string name="stop">Arrêter</string>
+    <string name="play_audio">Lire l\'audio</string>
+    <string name="uploading_files">Téléchargement des fichiers...</string>
+    <string name="cancel">Annuler</string>
+    <string name="save">Enregistrer</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">Veuillez entrer une étiquette pour le bouton</string>
+    <string name="select_image_prompt">Veuillez sélectionner ou prendre une image</string>
+    <string name="record_sound_prompt">Veuillez enregistrer un son</string>
+    <string name="config_saved">Configuration enregistrée avec succès</string>
+    <string name="save_error">Erreur d\'enregistrement : %1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">Erreur de chargement des paramètres : %1$s</string>
+    <string name="sign_out_title">Déconnexion</string>
+    <string name="sign_out_message">Êtes-vous sûr de vouloir vous déconnecter ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="welcome_user">Bienvenue %1$s</string>
+    <string name="auth_failed">Échec de l\'authentification</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">Erreur d\'initialisation de Drive : %1$s</string>
+    <string name="image_preview">Aperçu de l\'image</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">Mode édition activé. Appuyez sur un bouton pour le configurer.</string>
+    <string name="use_mode_activated">Mode utilisation activé</string>
+    <string name="config_saved_short">Configuration enregistrée</string>
+    <string name="error_loading_image">Erreur de chargement de l\'image du bouton %1$d</string>
+    <string name="configure_first">Configurez d\'abord ce bouton (appui long)</string>
+    <string name="error_playing_audio">Erreur de lecture audio : %1$s</string>
+
+    <!-- ConfigureButtonActivity Messages -->
+    <string name="permissions_needed">Les autorisations sont nécessaires pour utiliser toutes les fonctionnalités</string>
+    <string name="error_copying_image">Erreur de copie de l\'image : %1$s</string>
+    <string name="audio_permission_needed">L\'autorisation d\'enregistrement audio est nécessaire</string>
+    <string name="recording_started">Enregistrement commencé</string>
+    <string name="error_starting_recording">Erreur de démarrage de l\'enregistrement</string>
+    <string name="recording_completed">Enregistrement terminé</string>
+    <string name="error_stopping_recording">Erreur d\'arrêt de l\'enregistrement</string>
+    <string name="playback_completed">Lecture terminée</string>
+</resources>

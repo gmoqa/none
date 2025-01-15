@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">none</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">按钮1</string>
+    <string name="button_2">按钮2</string>
+    <string name="button_3">按钮3</string>
+    <string name="button_4">按钮4</string>
+    <string name="button_5">按钮5</string>
+    <string name="button_6">按钮6</string>
+    <string name="edit_mode">编辑</string>
+    <string name="use_mode">使用</string>
+    <string name="settings">设置</string>
+    <string name="logout">退出登录</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">设置</string>
+    <string name="sync_section_title">同步</string>
+    <string name="sync_section_description">将您的设置保存到Google云端硬盘</string>
+    <string name="enable_sync">启用同步</string>
+    <string name="sync_status_disabled">已禁用 - 仅本地存储</string>
+    <string name="sync_status_enabled">已启用 - 与Google云端硬盘同步</string>
+    <string name="sync_status_logging_in">正在登录...</string>
+    <string name="account_connected">已连接账户</string>
+    <string name="sign_out">退出登录</string>
+    <string name="sync_now">立即同步</string>
+    <string name="close">关闭</string>
+    <string name="info_title">ℹ️ 信息</string>
+    <string name="info_description">• 不同步：数据仅保存在此设备上\n• 同步：数据保存到您的Google云端硬盘并在设备之间同步\n• 费用：$0 - 使用您的免费云端硬盘空间</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">同步已启用</string>
+    <string name="sync_disabled">同步已禁用。数据将仅保存在本地</string>
+    <string name="syncing">正在同步设置...</string>
+    <string name="sync_complete">同步完成</string>
+    <string name="sync_error">同步错误：%1$s</string>
+    <string name="sign_in_error">登录错误：%1$s</string>
+    <string name="connected_with">已连接 %1$s</string>
+    <string name="session_closed">会话已关闭</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">配置按钮</string>
+    <string name="button_image">按钮图像</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_image">选择图像</string>
+    <string name="button_label">按钮标签</string>
+    <string name="label_hint">例如：水、食物、厕所...</string>
+    <string name="button_sound">按钮声音</string>
+    <string name="no_audio">未录制音频</string>
+    <string name="record">录制</string>
+    <string name="stop">停止</string>
+    <string name="play_audio">播放音频</string>
+    <string name="uploading_files">正在上传文件...</string>
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">请输入按钮标签</string>
+    <string name="select_image_prompt">请选择或拍摄图像</string>
+    <string name="record_sound_prompt">请录制声音</string>
+    <string name="config_saved">配置保存成功</string>
+    <string name="save_error">保存错误：%1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">加载设置错误：%1$s</string>
+    <string name="sign_out_title">退出登录</string>
+    <string name="sign_out_message">确定要退出登录吗？</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="welcome_user">欢迎 %1$s</string>
+    <string name="auth_failed">认证失败</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">初始化云端硬盘错误：%1$s</string>
+    <string name="image_preview">图像预览</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">编辑模式已启用。点击按钮进行配置。</string>
+    <string name="use_mode_activated">使用模式已启用</string>
+    <string name="config_saved_short">配置已保存</string>
+    <string name="error_loading_image">加载按钮 %1$d 图像错误</string>
+    <string name="configure_first">请先配置此按钮（长按）</string>
+    <string name="error_playing_audio">播放音频错误：%1$s</string>
+
+    <!-- ConfigureButtonActivity Messages -->
+    <string name="permissions_needed">需要权限才能使用所有功能</string>
+    <string name="error_copying_image">复制图像错误：%1$s</string>
+    <string name="audio_permission_needed">需要音频录制权限</string>
+    <string name="recording_started">录制已开始</string>
+    <string name="error_starting_recording">开始录制错误</string>
+    <string name="recording_completed">录制完成</string>
+    <string name="error_stopping_recording">停止录制错误</string>
+    <string name="playback_completed">播放完成</string>
+</resources>

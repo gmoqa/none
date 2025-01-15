@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">none</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">Pulsante 1</string>
+    <string name="button_2">Pulsante 2</string>
+    <string name="button_3">Pulsante 3</string>
+    <string name="button_4">Pulsante 4</string>
+    <string name="button_5">Pulsante 5</string>
+    <string name="button_6">Pulsante 6</string>
+    <string name="edit_mode">Modifica</string>
+    <string name="use_mode">Usa</string>
+    <string name="settings">Impostazioni</string>
+    <string name="logout">Esci</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Impostazioni</string>
+    <string name="sync_section_title">Sincronizzazione</string>
+    <string name="sync_section_description">Salva le tue impostazioni su Google Drive</string>
+    <string name="enable_sync">Attiva sincronizzazione</string>
+    <string name="sync_status_disabled">Disattivato - Solo archiviazione locale</string>
+    <string name="sync_status_enabled">Attivato - Sincronizzazione con Google Drive</string>
+    <string name="sync_status_logging_in">Accesso in corso...</string>
+    <string name="account_connected">Account connesso</string>
+    <string name="sign_out">Esci</string>
+    <string name="sync_now">Sincronizza ora</string>
+    <string name="close">Chiudi</string>
+    <string name="info_title">ℹ️ Informazione</string>
+    <string name="info_description">• Senza sincronizzazione: I dati vengono salvati solo su questo dispositivo\n• Con sincronizzazione: I dati vengono salvati sul tuo Google Drive e sincronizzati tra i dispositivi\n• Costo: € 0 - utilizza il tuo spazio Drive gratuito</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">Sincronizzazione attivata</string>
+    <string name="sync_disabled">Sincronizzazione disattivata. I dati verranno salvati solo localmente</string>
+    <string name="syncing">Sincronizzazione impostazioni...</string>
+    <string name="sync_complete">Sincronizzazione completata</string>
+    <string name="sync_error">Errore di sincronizzazione: %1$s</string>
+    <string name="sign_in_error">Errore di accesso: %1$s</string>
+    <string name="connected_with">Connesso con %1$s</string>
+    <string name="session_closed">Sessione chiusa</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">Configura pulsante</string>
+    <string name="button_image">Immagine del pulsante</string>
+    <string name="take_photo">Scatta foto</string>
+    <string name="select_image">Seleziona immagine</string>
+    <string name="button_label">Etichetta del pulsante</string>
+    <string name="label_hint">Es: Acqua, Cibo, Bagno...</string>
+    <string name="button_sound">Suono del pulsante</string>
+    <string name="no_audio">Nessun audio registrato</string>
+    <string name="record">Registra</string>
+    <string name="stop">Ferma</string>
+    <string name="play_audio">Riproduci audio</string>
+    <string name="uploading_files">Caricamento file...</string>
+    <string name="cancel">Annulla</string>
+    <string name="save">Salva</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">Inserisci un\'etichetta per il pulsante</string>
+    <string name="select_image_prompt">Seleziona o scatta un\'immagine</string>
+    <string name="record_sound_prompt">Registra un suono</string>
+    <string name="config_saved">Configurazione salvata con successo</string>
+    <string name="save_error">Errore di salvataggio: %1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">Errore durante il caricamento delle impostazioni: %1$s</string>
+    <string name="sign_out_title">Esci</string>
+    <string name="sign_out_message">Sei sicuro di voler uscire?</string>
+    <string name="yes">Sì</string>
+    <string name="no">No</string>
+    <string name="welcome_user">Benvenuto %1$s</string>
+    <string name="auth_failed">Autenticazione fallita</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">Errore di inizializzazione Drive: %1$s</string>
+    <string name="image_preview">Anteprima immagine</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">Modalità modifica attivata. Tocca un pulsante per configurarlo.</string>
+    <string name="use_mode_activated">Modalità uso attivata</string>
+    <string name="config_saved_short">Configurazione salvata</string>
+    <string name="error_loading_image">Errore durante il caricamento dell\'immagine del pulsante %1$d</string>
+    <string name="configure_first">Configura prima questo pulsante (pressione lunga)</string>
+    <string name="error_playing_audio">Errore durante la riproduzione audio: %1$s</string>
+
+    <!-- ConfigureButtonActivity Messages -->
+    <string name="permissions_needed">Le autorizzazioni sono necessarie per utilizzare tutte le funzionalità</string>
+    <string name="error_copying_image">Errore durante la copia dell\'immagine: %1$s</string>
+    <string name="audio_permission_needed">È necessaria l\'autorizzazione per la registrazione audio</string>
+    <string name="recording_started">Registrazione avviata</string>
+    <string name="error_starting_recording">Errore durante l\'avvio della registrazione</string>
+    <string name="recording_completed">Registrazione completata</string>
+    <string name="error_stopping_recording">Errore durante l\'arresto della registrazione</string>
+    <string name="playback_completed">Riproduzione completata</string>
+</resources>

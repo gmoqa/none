@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Person walking -->
+    <!-- Head -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,30 m-8,0 a8,8 0 1,1 16,0 a8,8 0 1,1 -16,0"/>
+
+    <!-- Body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,38 L60,65"/>
+
+    <!-- Arms -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M60,45 L50,55 M60,45 L70,40"/>
+
+    <!-- Legs -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:pathData="M60,65 L50,85 M60,65 L70,80"/>
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M85,25 m-6,0 a6,6 0 1,1 12,0 a6,6 0 1,1 -12,0"/>
+</vector>

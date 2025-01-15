@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">None</string>
+
+    <!-- Welcome / Language Selection -->
+    <string name="welcome_title">Welcome to None</string>
+    <string name="welcome_subtitle"></string>
+    <string name="continue_button">Continue</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">Button 1</string>
+    <string name="button_2">Button 2</string>
+    <string name="button_3">Button 3</string>
+    <string name="button_4">Button 4</string>
+    <string name="button_5">Button 5</string>
+    <string name="button_6">Button 6</string>
+    <string name="button_7">Button 7</string>
+    <string name="button_8">Button 8</string>
+    <string name="button_9">Button 9</string>
+    <string name="button_10">Button 10</string>
+    <string name="button_11">Button 11</string>
+    <string name="button_12">Button 12</string>
+    <string name="edit_mode">Edit</string>
+    <string name="use_mode">Use</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Sign out</string>
+    <string name="add_button">Agregar botón</string>
+    <string name="delete_button">Eliminar botón</string>
+    <string name="delete_confirmation">¿Eliminar este botón? Se perderán la imagen y el audio asociados.</string>
+    <string name="max_buttons_reached">Has alcanzado el máximo de 12 botones. Elimina uno antes de agregar más.</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="sync_section_title">Synchronization</string>
+    <string name="sync_section_description">Save your settings to Google Drive</string>
+    <string name="enable_sync">Enable synchronization</string>
+    <string name="sync_status_disabled">Disabled - Local storage only</string>
+    <string name="sync_status_enabled">Enabled - Syncing with Google Drive</string>
+    <string name="sync_status_logging_in">Signing in...</string>
+    <string name="account_connected">Connected account</string>
+    <string name="sign_out">Sign out</string>
+    <string name="sync_now">Sync now</string>
+    <string name="close">Close</string>
+    <string name="info_title">ℹ️ Information</string>
+    <string name="info_description">• Without sync: Data is only saved on this device\n• With sync: Data is saved to your Google Drive and syncs across devices\n• Cost: $0 - uses your free Drive space</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">Synchronization enabled</string>
+    <string name="sync_disabled">Synchronization disabled. Data will be saved locally only</string>
+    <string name="syncing">Syncing settings...</string>
+    <string name="sync_complete">Sync complete</string>
+    <string name="sync_error">Sync error: %1$s</string>
+    <string name="sign_in_error">Sign in error: %1$s</string>
+    <string name="connected_with">Connected with %1$s</string>
+    <string name="session_closed">Session closed</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">Configure Button</string>
+    <string name="button_image">Button image</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="select_image">Select Image</string>
+    <string name="button_label">Button label</string>
+    <string name="label_hint">e.g.: Water, Food, Bathroom...</string>
+    <string name="button_sound">Button sound</string>
+    <string name="no_audio">No audio recorded</string>
+    <string name="record">Record</string>
+    <string name="stop">Stop</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="uploading_files">Uploading files...</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">Please enter a label for the button</string>
+    <string name="select_image_prompt">Please select or take an image</string>
+    <string name="record_sound_prompt">Please record a sound</string>
+    <string name="config_saved">Configuration saved successfully</string>
+    <string name="save_error">Save error: %1$s</string>
+    <string name="recording_status">⏺️ Grabando...</string>
+    <string name="processing_audio_status">⏳ Procesando audio...</string>
+    <string name="audio_recorded_status">✅ Audio grabado (%1$d KB)</string>
+    <string name="recording_started">Recording started</string>
+    <string name="recording_completed">Recording completed</string>
+    <string name="error_starting_recording">Error starting recording</string>
+    <string name="error_stopping_recording">Error stopping recording</string>
+    <string name="audio_permission_needed">Audio permission is needed to record</string>
+    <string name="permissions_needed">Permissions are needed to use all features</string>
+    <string name="audio_file_not_exist">Audio file does not exist</string>
+    <string name="audio_file_empty">Audio file is empty</string>
+    <string name="audio_file_empty_rerecord">Audio file is empty. Please record again.</string>
+    <string name="playback_completed">Playback completed</string>
+    <string name="image_file_not_exist">Image file does not exist</string>
+    <string name="error_copying_image">Error copying image: %1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">Error loading settings: %1$s</string>
+    <string name="sign_out_title">Sign out</string>
+    <string name="sign_out_message">Are you sure you want to sign out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="welcome_user">Welcome %1$s</string>
+    <string name="auth_failed">Authentication failed</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">Error initializing Drive: %1$s</string>
+    <string name="image_preview">Image preview</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">Edit mode activated. Tap a button to configure it.</string>
+    <string name="use_mode_activated">Use mode activated</string>
+    <string name="config_saved_short">Configuration saved</string>
+    <string name="error_loading_image">Error loading button %1$d image</string>
+    <string name="configure_first">Configure this button first (long press)</string>
+    <string name="error_playing_audio">Error playing audio: %1$s</string>
+
+    <!-- Edit Mode Settings -->
+    <string name="edit_mode_section">Edit Mode</string>
+    <string name="edit_mode_description">Activate edit mode to configure buttons. Tap any button to edit its image, sound, and label.</string>
+    <string name="activate_edit_mode">Activate Edit Mode</string>
+    <string name="deactivate_edit_mode">Deactivate Edit Mode</string>
+
+    <!-- Language Settings -->
+    <string name="language_section_title">Language</string>
+    <string name="language_section_description">Choose your preferred language</string>
+    <string name="select_language">Select language</string>
+    <string name="language_changed">Language changed successfully.</string>
+
+    <!-- Default Button Labels -->
+    <string name="default_button_juice">Juice</string>
+    <string name="default_button_food">Fruits</string>
+    <string name="default_button_diaper">Diaper</string>
+    <string name="default_button_walk">Go for a walk</string>
+    <string name="default_button_snack">Cookie</string>
+    <string name="default_button_school">School</string>
+
+    <!-- Language Names -->
+    <string name="lang_system">System default</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Spanish</string>
+    <string name="lang_pt">Portuguese</string>
+    <string name="lang_fr">French</string>
+    <string name="lang_de">German</string>
+    <string name="lang_it">Italian</string>
+    <string name="lang_ja">Japanese</string>
+    <string name="lang_zh">Chinese</string>
+    <string name="lang_ar">Arabic</string>
+
+    <!-- General UI -->
+    <string name="done">Done</string>
+
+    <!-- Confirmation Dialog -->
+    <string name="confirm_configuration_title">¿Guardar esta configuración?</string>
+    <string name="confirm_configuration_subtitle">Revisa que todo esté correcto antes de guardar</string>
+    <string name="preview_play_audio">▶ Escuchar audio</string>
+    <string name="edit_more">Seguir editando</string>
+    <string name="confirm_save">✓ Confirmar y guardar</string>
+
+    <!-- Edit Mode Overlay -->
+    <string name="tap_to_edit">Toca para editar</string>
+
+    <!-- Loading States -->
+    <string name="loading_image">Cargando imagen...</string>
+    <string name="loading_audio">Cargando audio...</string>
+    <string name="loading_config">Cargando configuración...</string>
+</resources>

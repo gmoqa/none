@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">none</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">زر 1</string>
+    <string name="button_2">زر 2</string>
+    <string name="button_3">زر 3</string>
+    <string name="button_4">زر 4</string>
+    <string name="button_5">زر 5</string>
+    <string name="button_6">زر 6</string>
+    <string name="edit_mode">تحرير</string>
+    <string name="use_mode">استخدام</string>
+    <string name="settings">الإعدادات</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="sync_section_title">المزامنة</string>
+    <string name="sync_section_description">احفظ إعداداتك على Google Drive</string>
+    <string name="enable_sync">تمكين المزامنة</string>
+    <string name="sync_status_disabled">معطل - التخزين المحلي فقط</string>
+    <string name="sync_status_enabled">مفعل - المزامنة مع Google Drive</string>
+    <string name="sync_status_logging_in">جاري تسجيل الدخول...</string>
+    <string name="account_connected">الحساب المتصل</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="sync_now">مزامنة الآن</string>
+    <string name="close">إغلاق</string>
+    <string name="info_title">ℹ️ معلومات</string>
+    <string name="info_description">• بدون مزامنة: يتم حفظ البيانات على هذا الجهاز فقط\n• مع المزامنة: يتم حفظ البيانات على Google Drive ومزامنتها بين الأجهزة\n• التكلفة: $0 - يستخدم مساحة Drive المجانية</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">تم تمكين المزامنة</string>
+    <string name="sync_disabled">تم تعطيل المزامنة. سيتم حفظ البيانات محليًا فقط</string>
+    <string name="syncing">جاري مزامنة الإعدادات...</string>
+    <string name="sync_complete">اكتملت المزامنة</string>
+    <string name="sync_error">خطأ في المزامنة: %1$s</string>
+    <string name="sign_in_error">خطأ في تسجيل الدخول: %1$s</string>
+    <string name="connected_with">متصل بـ %1$s</string>
+    <string name="session_closed">تم إغلاق الجلسة</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">تكوين الزر</string>
+    <string name="button_image">صورة الزر</string>
+    <string name="take_photo">التقط صورة</string>
+    <string name="select_image">اختر صورة</string>
+    <string name="button_label">تسمية الزر</string>
+    <string name="label_hint">مثال: ماء، طعام، حمام...</string>
+    <string name="button_sound">صوت الزر</string>
+    <string name="no_audio">لم يتم تسجيل صوت</string>
+    <string name="record">تسجيل</string>
+    <string name="stop">إيقاف</string>
+    <string name="play_audio">تشغيل الصوت</string>
+    <string name="uploading_files">جاري رفع الملفات...</string>
+    <string name="cancel">إلغاء</string>
+    <string name="save">حفظ</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">الرجاء إدخال تسمية للزر</string>
+    <string name="select_image_prompt">الرجاء اختيار أو التقاط صورة</string>
+    <string name="record_sound_prompt">الرجاء تسجيل صوت</string>
+    <string name="config_saved">تم حفظ الإعدادات بنجاح</string>
+    <string name="save_error">خطأ في الحفظ: %1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">خطأ في تحميل الإعدادات: %1$s</string>
+    <string name="sign_out_title">تسجيل الخروج</string>
+    <string name="sign_out_message">هل أنت متأكد من أنك تريد تسجيل الخروج؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="welcome_user">مرحباً %1$s</string>
+    <string name="auth_failed">فشلت المصادقة</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">خطأ في تهيئة Drive: %1$s</string>
+    <string name="image_preview">معاينة الصورة</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">تم تنشيط وضع التحرير. انقر على زر لتكوينه.</string>
+    <string name="use_mode_activated">تم تنشيط وضع الاستخدام</string>
+    <string name="config_saved_short">تم حفظ الإعدادات</string>
+    <string name="error_loading_image">خطأ في تحميل صورة الزر %1$d</string>
+    <string name="configure_first">قم بتكوين هذا الزر أولاً (اضغط مطولاً)</string>
+    <string name="error_playing_audio">خطأ في تشغيل الصوت: %1$s</string>
+
+    <!-- ConfigureButtonActivity Messages -->
+    <string name="permissions_needed">الأذونات مطلوبة لاستخدام جميع الميزات</string>
+    <string name="error_copying_image">خطأ في نسخ الصورة: %1$s</string>
+    <string name="audio_permission_needed">مطلوب إذن تسجيل الصوت</string>
+    <string name="recording_started">بدأ التسجيل</string>
+    <string name="error_starting_recording">خطأ في بدء التسجيل</string>
+    <string name="recording_completed">اكتمل التسجيل</string>
+    <string name="error_stopping_recording">خطأ في إيقاف التسجيل</string>
+    <string name="playback_completed">اكتمل التشغيل</string>
+</resources>

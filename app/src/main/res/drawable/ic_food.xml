@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Plate -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,70 Q30,60 60,60 Q90,60 90,70 L90,85 Q90,90 60,90 Q30,90 30,85 Z"/>
+
+    <!-- Food (simplified) -->
+    <path
+        android:fillColor="#8BC34A"
+        android:pathData="M45,55 L50,65 L70,65 L75,55 Q75,50 60,45 Q45,50 45,55 Z"/>
+
+    <!-- Fork -->
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M35,30 L37,30 L37,60 L35,60 Z M40,30 L42,30 L42,60 L40,60 Z M45,30 L47,30 L47,60 L45,60 Z M35,25 L47,25 L47,30 L35,30 Z"/>
+</vector>

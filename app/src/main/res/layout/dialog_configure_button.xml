@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="24dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top">
+
+        <!-- Columna izquierda: Preview card -->
+        <LinearLayout
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginEnd="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vista Previa"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/md_theme_on_surface_variant"
+                android:textAllCaps="true"
+                android:letterSpacing="0.1"
+                android:layout_marginBottom="12dp" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <!-- Preview card que replica el diseño de item_button_card -->
+            <FrameLayout
+                android:id="@+id/previewCardButton"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/card_black_border"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="1:1">
+
+                <FrameLayout
+                    android:id="@+id/previewCardContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/card_content_bg"
+                    android:clipToOutline="true">
+
+                    <!-- Main image preview -->
+                    <ImageView
+                        android:id="@+id/imagePreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/placeholder_image"
+                        android:contentDescription="@string/image_preview" />
+
+                    <!-- Black bar at bottom -->
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_gravity="bottom"
+                        android:background="#DD000000" />
+
+                    <!-- Button label preview -->
+                    <TextView
+                        android:id="@+id/previewLabel"
+                        android:layout_width="match_parent"
+                        android:layout_height="36dp"
+                        android:layout_gravity="bottom"
+                        android:text="@string/button_1"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center"
+                        android:paddingStart="8dp"
+                        android:paddingEnd="8dp"
+                        android:maxLines="1"
+                        android:ellipsize="end"
+                        android:textSize="14sp" />
+                </FrameLayout>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+        <!-- Columna derecha: Botones de acción -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <!-- Botón de tomar foto -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTakePhoto"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/take_photo"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            app:icon="@android:drawable/ic_menu_camera"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            app:iconPadding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón de seleccionar imagen -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/select_image"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            app:icon="@android:drawable/ic_menu_gallery"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            app:iconPadding="12dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Etiqueta del botón -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_label"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@color/md_theme_on_surface_variant"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="start" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etButtonLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/label_hint"
+                android:textSize="16sp"
+                android:inputType="text"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Botón de grabar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRecordAudio"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/record"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            app:icon="@android:drawable/ic_btn_speak_now"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            app:iconPadding="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón de parar -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnStopRecording"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/stop"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            app:icon="@android:drawable/ic_media_pause"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            app:iconPadding="12dp"
+            android:visibility="gone"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Botón de reproducir -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnPlayAudio"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/play_audio"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            app:icon="@android:drawable/ic_media_play"
+            app:iconGravity="textStart"
+            app:iconTint="@android:color/white"
+            app:iconPadding="12dp"
+            android:enabled="false"
+            android:layout_marginBottom="28dp" />
+
+        <!-- Indicador de subida -->
+        <LinearLayout
+            android:id="@+id/uploadingLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:padding="16dp"
+            android:background="@color/md_theme_surface_variant"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/uploading_files"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="8dp" />
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:indeterminate="true" />
+        </LinearLayout>
+
+        <!-- Botones de acción -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/save"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded"
+            android:layout_marginBottom="12dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="@string/cancel"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/button_blue_rounded" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

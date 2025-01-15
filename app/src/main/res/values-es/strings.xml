@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">none</string>
+
+    <!-- Welcome / Language Selection -->
+    <string name="welcome_title">Bienvenido a None</string>
+    <string name="welcome_subtitle"></string>
+    <string name="continue_button">Continuar</string>
+
+    <!-- Main Screen -->
+    <string name="button_1">Botón 1</string>
+    <string name="button_2">Botón 2</string>
+    <string name="button_3">Botón 3</string>
+    <string name="button_4">Botón 4</string>
+    <string name="button_5">Botón 5</string>
+    <string name="button_6">Botón 6</string>
+    <string name="edit_mode">Editar</string>
+    <string name="use_mode">Usar</string>
+    <string name="settings">Opciones</string>
+    <string name="logout">Cerrar sesión</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Configuración</string>
+    <string name="sync_section_title">Sincronización</string>
+    <string name="sync_section_description">Guarda tus configuraciones en Google Drive</string>
+    <string name="enable_sync">Activar sincronización</string>
+    <string name="sync_status_disabled">Desactivado - Solo almacenamiento local</string>
+    <string name="sync_status_enabled">Activado - Sincronizando con Google Drive</string>
+    <string name="sync_status_logging_in">Iniciando sesión...</string>
+    <string name="account_connected">Cuenta conectada</string>
+    <string name="sign_out">Cerrar sesión</string>
+    <string name="sync_now">Sincronizar ahora</string>
+    <string name="close">Cerrar</string>
+    <string name="info_title">ℹ️ Información</string>
+    <string name="info_description">• Sin sincronización: Los datos solo se guardan en este dispositivo\n• Con sincronización: Los datos se guardan en tu Google Drive y se sincronizan entre dispositivos\n• Costo: $0 - usa tu espacio gratuito de Drive</string>
+
+    <!-- Settings Messages -->
+    <string name="sync_enabled">Sincronización activada</string>
+    <string name="sync_disabled">Sincronización desactivada. Los datos se guardarán solo localmente</string>
+    <string name="syncing">Sincronizando configuraciones...</string>
+    <string name="sync_complete">Sincronización completada</string>
+    <string name="sync_error">Error en sincronización: %1$s</string>
+    <string name="sign_in_error">Error al iniciar sesión: %1$s</string>
+    <string name="connected_with">Conectado con %1$s</string>
+    <string name="session_closed">Sesión cerrada</string>
+
+    <!-- Configure Button Screen -->
+    <string name="configure_button">Configurar Botón</string>
+    <string name="button_image">Imagen del botón</string>
+    <string name="take_photo">Tomar Foto</string>
+    <string name="select_image">Seleccionar Imagen</string>
+    <string name="button_label">Etiqueta del botón</string>
+    <string name="label_hint">Ej: Agua, Comida, Baño...</string>
+    <string name="button_sound">Sonido del botón</string>
+    <string name="no_audio">No hay audio grabado</string>
+    <string name="record">Grabar</string>
+    <string name="stop">Detener</string>
+    <string name="play_audio">Reproducir Audio</string>
+    <string name="uploading_files">Subiendo archivos...</string>
+    <string name="cancel">Cancelar</string>
+    <string name="save">Guardar</string>
+
+    <!-- Configure Button Messages -->
+    <string name="enter_label">Por favor ingresa una etiqueta para el botón</string>
+    <string name="select_image_prompt">Por favor selecciona o toma una imagen</string>
+    <string name="record_sound_prompt">Por favor graba un sonido</string>
+    <string name="config_saved">Configuración guardada exitosamente</string>
+    <string name="save_error">Error al guardar: %1$s</string>
+
+    <!-- Main Screen Messages -->
+    <string name="loading_configs_error">Error cargando configuraciones: %1$s</string>
+    <string name="sign_out_title">Cerrar sesión</string>
+    <string name="sign_out_message">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="welcome_user">Bienvenido %1$s</string>
+    <string name="auth_failed">Autenticación fallida</string>
+
+    <!-- General -->
+    <string name="error_initializing_drive">Error inicializando Drive: %1$s</string>
+    <string name="image_preview">Vista previa de imagen</string>
+
+    <!-- MainActivity Messages -->
+    <string name="edit_mode_activated">Modo edición activado. Toca un botón para configurarlo.</string>
+    <string name="use_mode_activated">Modo uso activado</string>
+    <string name="config_saved_short">Configuración guardada</string>
+    <string name="error_loading_image">Error cargando imagen del botón %1$d</string>
+    <string name="configure_first">Configura este botón primero (mantén presionado)</string>
+    <string name="error_playing_audio">Error reproduciendo audio: %1$s</string>
+
+    <!-- Edit Mode Settings -->
+    <string name="edit_mode_section">Modo Edición</string>
+    <string name="edit_mode_description">Activa el modo edición para configurar botones. Toca cualquier botón para editar su imagen, sonido y etiqueta.</string>
+    <string name="activate_edit_mode">Activar Modo Edición</string>
+    <string name="deactivate_edit_mode">Desactivar Modo Edición</string>
+
+    <!-- Language Settings -->
+    <string name="language_section_title">Idioma</string>
+    <string name="language_section_description">Elige tu idioma preferido</string>
+    <string name="select_language">Seleccionar idioma</string>
+    <string name="language_changed">Idioma cambiado exitosamente.</string>
+
+    <!-- Default Button Labels -->
+    <string name="default_button_juice">Jugo</string>
+    <string name="default_button_food">Frutas</string>
+    <string name="default_button_diaper">Pañal</string>
+    <string name="default_button_walk">Parque</string>
+    <string name="default_button_snack">Galletas</string>
+    <string name="default_button_school">Colegio</string>
+
+    <!-- Language Names -->
+    <string name="lang_system">Predeterminado del sistema</string>
+    <string name="lang_en">Inglés</string>
+    <string name="lang_es">Español</string>
+    <string name="lang_pt">Portugués</string>
+    <string name="lang_fr">Francés</string>
+    <string name="lang_de">Alemán</string>
+    <string name="lang_it">Italiano</string>
+    <string name="lang_ja">Japonés</string>
+    <string name="lang_zh">Chino</string>
+    <string name="lang_ar">Árabe</string>
+
+    <!-- ConfigureButtonActivity Messages -->
+    <string name="permissions_needed">Se necesitan permisos para usar todas las funcionalidades</string>
+    <string name="error_copying_image">Error al copiar imagen: %1$s</string>
+    <string name="audio_permission_needed">Se necesita permiso para grabar audio</string>
+    <string name="recording_started">Grabación iniciada</string>
+    <string name="error_starting_recording">Error al iniciar grabación</string>
+    <string name="recording_completed">Grabación completada</string>
+    <string name="error_stopping_recording">Error al detener grabación</string>
+    <string name="playback_completed">Reproducción completada</string>
+    <string name="audio_file_not_exist">El archivo de audio no existe</string>
+    <string name="audio_file_empty">El archivo de audio está vacío</string>
+    <string name="audio_file_empty_rerecord">El archivo de audio está vacío. Por favor graba de nuevo.</string>
+    <string name="image_file_not_exist">El archivo de imagen no existe</string>
+</resources>
