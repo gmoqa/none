@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NONE - Simple communication for non-verbal people. Free and open source AAC app with customizable boards.">
+    <meta name="keywords" content="AAC, autism, augmentative communication, non-verbal, free app, open source">
+    <meta name="author" content="Guillermo Quinteros">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://noneapp.org/en/">
+    <meta property="og:site_name" content="NONE">
+    <meta property="og:title" content="NONE - Communication for non-verbal people">
+    <meta property="og:description" content="Customizable boards with images and audio. Free and open source, forever.">
+    <meta property="og:image" content="https://noneapp.org/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="NONE - Augmentative communication application for autistic people">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="es_ES">
+    <meta property="og:locale:alternate" content="pt_BR">
+    <meta property="og:locale:alternate" content="fr_FR">
+    <meta property="og:locale:alternate" content="de_DE">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@noneapp">
+    <meta property="twitter:creator" content="@gmoqa">
+    <meta property="twitter:url" content="https://noneapp.org/en/">
+    <meta property="twitter:title" content="NONE - Communication for non-verbal people">
+    <meta property="twitter:description" content="Customizable boards with images and audio. Free and open source, forever.">
+    <meta property="twitter:image" content="https://noneapp.org/assets/og-image.png">
+    <meta property="twitter:image:alt" content="NONE - Augmentative communication application for autistic people">
+
+    <title>NONE - Simple communication for non-verbal people</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    <link rel="preload" href="../assets/none_splash.json" as="fetch" crossorigin>
+    <link rel="alternate" hreflang="es" href="https://noneapp.org/">
+    <link rel="alternate" hreflang="en" href="https://noneapp.org/en/">
+    <link rel="alternate" hreflang="pt" href="https://noneapp.org/pt/">
+    <link rel="alternate" hreflang="fr" href="https://noneapp.org/fr/">
+    <link rel="alternate" hreflang="de" href="https://noneapp.org/de/">
+    <link rel="alternate" hreflang="x-default" href="https://noneapp.org/">
+
+    <!-- Google Analytics (Google tag - gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7J23C6BLNQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-7J23C6BLNQ', {
+            'cookie_flags': 'SameSite=None;Secure',
+            'anonymize_ip': true,
+            'allow_google_signals': true,
+            'allow_ad_personalization_signals': false
+        });
+        gtag('set', {'language': 'en'});
+    </script>
+</head>
+<body>
+    <!-- Skip Link for keyboard accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Main header -->
+    <header role="banner">
+        <nav aria-label="Main navigation">
+            <!-- GitHub Star Button -->
+            <a href="https://github.com/gmoqa/none" class="github-star-button" target="_blank" rel="noopener">
+                <svg height="20" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="20" fill="currentColor">
+                    <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+                </svg>
+                <span>Star on GitHub</span>
+                <span class="sr-only"> (opens in new tab)</span>
+            </a>
+
+            <!-- Language Selector -->
+            <div class="language-selector">
+                <button class="language-button" id="languageButton" aria-haspopup="menu" aria-expanded="false" aria-controls="languageDropdown">
+                    <img src="../assets/flags/EN.png" alt="EN" class="flag-icon">
+                    <span>English</span>
+                    <svg width="12" height="12" viewBox="0 0 12 12" fill="currentColor">
+                        <path d="M6 9L1 4h10z"/>
+                    </svg>
+                </button>
+                <div class="language-dropdown" id="languageDropdown" role="menu" aria-labelledby="languageButton">
+                    <a href="/" class="language-option" role="menuitem" lang="es">
+                        <img src="../assets/flags/ES.png" alt="" aria-hidden="true" class="flag-icon">
+                        <span>Español</span>
+                    </a>
+                    <a href="/en/" class="language-option active" role="menuitem">
+                        <img src="../assets/flags/EN.png" alt="" aria-hidden="true" class="flag-icon">
+                        <span>English</span>
+                    </a>
+                    <a href="/pt/" class="language-option" role="menuitem" lang="pt">
+                        <img src="../assets/flags/PT.png" alt="" aria-hidden="true" class="flag-icon">
+                        <span>Português</span>
+                    </a>
+                    <a href="/fr/" class="language-option" role="menuitem" lang="fr">
+                        <img src="../assets/flags/FR.png" alt="" aria-hidden="true" class="flag-icon">
+                        <span>Français</span>
+                    </a>
+                    <a href="/de/" class="language-option" role="menuitem" lang="de">
+                        <img src="../assets/flags/DE.png" alt="" aria-hidden="true" class="flag-icon">
+                        <span>Deutsch</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                <!-- Animated Logo -->
+                <div class="hero-logo" role="img" aria-label="NONE animated logo">
+                    <lottie-player
+                        src="../assets/none_splash.json"
+                        background="transparent"
+                        speed="1"
+                        style="width: 400px; height: 400px;"
+                        count="1"
+                        autoplay
+                        aria-hidden="true">
+                    </lottie-player>
+                </div>
+
+                <h1 class="hero-subtitle">Simple communication for non-verbal people.</h1>
+                <p class="hero-description">
+                    Customizable boards with images and audio.<br>
+                    <span class="highlight">Free and open source</span>, forever.
+                </p>
+                <div class="hero-cta">
+                    <!-- TODO: Add real links when the app is published -->
+                    <a href="https://github.com/gmoqa/none/releases" class="store-badge" target="_blank" rel="noopener">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Available on Google Play" width="168" height="56" loading="lazy">
+                        <span class="sr-only"> (opens in new tab)</span>
+                    </a>
+                    <a href="https://github.com/gmoqa/none/releases" class="store-badge" target="_blank" rel="noopener">
+                        <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1603929600" alt="Download on App Store" width="168" height="56" loading="lazy">
+                        <span class="sr-only"> (opens in new tab)</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="hero-image">
+                <div class="video-container">
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/W5uK6GpoQss"
+                        title="Demonstration video of the NONE application showing how the communication board works for non-verbal people"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        loading="lazy"
+                        style="border: 0;">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section id="caracteristicas" class="features-section" aria-labelledby="features-heading">
+        <!-- Background Animation -->
+        <div class="features-bg-animation" role="img" aria-label="Decorative background animation">
+            <lottie-player
+                src="../assets/arrows_up.json"
+                background="transparent"
+                speed="0.15"
+                style="width: 100%; height: 100%; object-fit: cover;"
+                loop
+                autoplay
+                renderer="svg"
+                preserveAspectRatio="xMidYMid slice"
+                aria-hidden="true">
+            </lottie-player>
+        </div>
+
+        <div class="container">
+            <h2 id="features-heading" class="features-title"><span class="highlight">Designed for communication</span></h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Fully customizable</h3>
+                    <p>Add your own images and record audio with your voice. Create unique boards for every need.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Your data, your control</h3>
+                    <p>Works offline without internet. All data is saved on your device, with optional backup to Google Drive.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Free and open source</h3>
+                    <p>Open source under GPL v3 license. No ads, no subscriptions, no hidden costs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Story / Why None -->
+    <section class="story-section" aria-labelledby="story-heading">
+        <div class="container">
+            <div class="story-content">
+                <div class="story-header">
+                    <span class="story-label">Why NONE exists</span>
+                    <h2 id="story-heading">For None, our son</h2>
+                </div>
+                <div class="story-text">
+                    <p>
+                        None is my son, and he doesn't speak. When we needed a better way to communicate,
+                        we looked for apps but they weren't as simple and direct as we needed. So I built <strong>NONE</strong>.
+                    </p>
+                    <p>
+                        It doesn't have complicated features or subscriptions. Just the basics: buttons, images,
+                        sounds. We keep improving it week by week.
+                        
+                    </p>
+                    <p>
+                        If it helps other families, then this publication was worth it.
+                    </p>
+                </div>
+                <div class="story-signature">
+                    <p>— Guillermo Quinteros - Chilean 🇨🇱 Software Engineer - <a href="https://github.com/gmoqa" target="_blank" rel="noopener" style="color: var(--color-primary); text-decoration: underline; font-weight: 600; transition: var(--transition);">github.com/gmoqa<span class="sr-only"> (opens in new tab)</span></a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="../assets/none_white.png" alt="NONE - Communication application for non-verbal people" class="footer-logo-img" width="40" height="40" loading="lazy">
+                        <h3>NONE</h3>
+                    </div>
+                    <p>Simple communication for non-verbal people.</p>
+                    <p class="footer-opensource">Open Source • GPL v3</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Project</h4>
+                    <ul>
+                        <li><a href="https://github.com/gmoqa/none" target="_blank" rel="noopener">GitHub<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://github.com/gmoqa/none/releases" target="_blank" rel="noopener">Releases<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://github.com/gmoqa/none/issues" target="_blank" rel="noopener">Issues<span class="sr-only"> (opens in new tab)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/gmoqa/none#readme" target="_blank" rel="noopener">Documentation<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://github.com/gmoqa/none/blob/main/LICENSE" target="_blank" rel="noopener">License<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="https://github.com/gmoqa/none/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing<span class="sr-only"> (opens in new tab)</span></a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:gu.quinteros@gmail.com">Email</a></li>
+                        <li><a href="https://github.com/gmoqa" target="_blank" rel="noopener">@gmoqa<span class="sr-only"> (opens in new tab)</span></a></li>
+                        <li><a href="../donate.html">Support noneapp.org</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 <a href="https://github.com/gmoqa" target="_blank" rel="noopener" style="color: #ffffff; text-decoration: none; font-weight: 600;">Guillermo Quinteros<span class="sr-only"> (opens in new tab)</span></a> • noneapp.org</p>
+                <p class="footer-love">
+                    With
+                    <svg class="heart-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                        <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                    </svg>
+                    for all the Nones in the world
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lottie Player - Async loading for better performance -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="../script.js" defer></script>
+</body>
+</html>
