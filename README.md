@@ -36,7 +36,7 @@ Want to contribute or build from source? See [DEVELOPERS.md](DEVELOPERS.md) for 
 
 GNU GPL v3 - Free and open source forever.
 
-**Copyright © 2023-2025 Guillermo Quinteros**
+**Copyright © 2024-2025 Guillermo Quinteros**
 
 Named in honor of Salvador "None" Quinteros.
 
@@ -46,6 +46,5 @@ Named in honor of Salvador "None" Quinteros.
 - Website: [https://noneapp.org](https://noneapp.org)
 - GitHub: [github.com/gmoqa/none](https://github.com/gmoqa/none)
 
----
 
-**Note**: This is an assistive tool and does not replace professional therapy. Always consult with specialists for comprehensive care.
+---

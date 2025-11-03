@@ -1,0 +1,25 @@
+{
+  "name": "noneapp-website",
+  "version": "1.0.0",
+  "description": "None - AAC App Website Build Tools",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.js",
+    "optimize:images": "node scripts/optimize-images.js",
+    "optimize:css": "purgecss --config purgecss.config.js",
+    "minify:html": "html-minifier-terser --config-file .htmlminifierrc.json --input-dir docs --output-dir docs --file-ext html",
+    "build:full": "npm run optimize:images && npm run optimize:css && npm run minify:html",
+    "serve": "python3 -m http.server 8080 --directory docs",
+    "lighthouse": "lighthouse http://localhost:8080 --output json --output-path ./docs/lighthouse-report.json --chrome-flags='--headless'"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "html-minifier-terser": "^7.2.0",
+    "lighthouse": "^12.0.0",
+    "purgecss": "^6.0.0",
+    "sharp": "^0.33.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

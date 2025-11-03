@@ -39,7 +39,7 @@
     <!-- Google Fonts - Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght;500;600;700;800;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="../styles.css">
     <link rel="icon" type="image/png" href="../assets/favicon.png">
@@ -155,16 +155,9 @@
             </div>
             <div class="hero-image">
                 <div class="video-container">
-                    <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/W5uK6GpoQss"
-                        title="Demonstrationsvideo der NONE-Anwendung, das zeigt, wie die Kommunikationstafel für nicht-sprechende Menschen funktioniert"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen
-                        loading="lazy"
-                        style="border: 0;">
-                    </iframe>
+                    <lite-youtube videoid="W5uK6GpoQss"
+                        title="Demonstrationsvideo der NONE-Anwendung, das zeigt, wie die Kommunikationstafel für nicht-sprechende Menschen funktioniert">
+                    </lite-youtube>
                 </div>
             </div>
         </div>
@@ -256,7 +249,7 @@
                     <h4>Projekt</h4>
                     <ul>
                         <li><a href="https://github.com/gmoqa/none" target="_blank" rel="noopener">GitHub<span class="sr-only"> (öffnet in neuem Tab)</span></a></li>
-                        <li><a href="https://github.com/gmoqa/none/releases" target="_blank" rel="noopener">Releases<span class="sr-only"> (öffnet in neuem Tab)</span></a></li>
+                        <li><a href="../en/changelog.html">Changelog</a></li>
                         <li><a href="https://github.com/gmoqa/none/issues" target="_blank" rel="noopener">Issues<span class="sr-only"> (öffnet in neuem Tab)</span></a></li>
                     </ul>
                 </div>
@@ -275,7 +268,12 @@
                     <ul>
                         <li><a href="mailto:gu.quinteros@gmail.com">Email</a></li>
                         <li><a href="https://github.com/gmoqa" target="_blank" rel="noopener">@gmoqa<span class="sr-only"> (öffnet in neuem Tab)</span></a></li>
-                        <li><a href="donate.html">Unterstützen Sie noneapp.org</a></li>
+                        <li><a href="donate.html" class="kofi-link">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: inline-block; vertical-align: middle; margin-right: 4px;">
+                                <path d="M23.881 8.948c-.773-4.085-4.859-4.593-4.859-4.593H.723c-.604 0-.679.798-.679.798s-.082 7.324-.022 11.822c.164 2.424 2.586 2.672 2.586 2.672s8.267-.023 11.966-.049c2.438-.426 2.683-2.566 2.658-3.734 4.352.24 7.422-2.831 6.649-6.916zm-11.062 3.511c-1.246 1.453-4.011 3.976-4.011 3.976s-.121.119-.31.023c-.076-.057-.108-.09-.108-.09-.443-.441-3.368-3.049-4.034-3.954-.709-.965-1.041-2.7-.091-3.71.951-1.01 3.005-1.086 4.363.407 0 0 1.565-1.782 3.468-.963 1.904.82 1.832 3.011.723 4.311zm6.173.478c-.928.116-1.682.028-1.682.028V7.284h1.77s1.971.551 1.971 2.638c0 1.913-.985 2.667-2.059 3.015z" fill="#FF5E5B"/>
+                            </svg>
+                            Unterstützen Sie noneapp.org
+                        </a></li>
                     </ul>
                 </div>
             </div>
@@ -294,7 +292,8 @@
     </footer>
 
     <!-- Lottie Player - Carga asíncrona para mejor performance -->
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+    <script src="../lottie-player.js" defer></script>
+    <script src="../youtube-facade.js" defer></script>
     <script src="../script.js" defer></script>
 </body>
 </html>
