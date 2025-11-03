@@ -128,3 +128,4 @@ __pycache__/
 *.keystore
 *.jks
 keystore.properties
+KEYSTORE_INFO.md

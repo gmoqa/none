@@ -27,8 +27,8 @@
 -dontwarn com.google.android.gms.**
 
 # Keep model classes (for Firestore)
--keep class com.example.teaboard.models.** { *; }
--keepclassmembers class com.example.teaboard.models.** { *; }
+-keep class org.none.android.models.** { *; }
+-keepclassmembers class org.none.android.models.** { *; }
 
 # Keep Glide
 -keep public class * implements com.bumptech.glide.module.GlideModule

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="app/src/main/assets/images/logo.png" alt="None Logo" width="500">
+  <img src="app/src/main/assets/images/logo.png" alt="None Logo" width="300">
 </p>
 
 # None - Simple Communication for Non-Verbal People
