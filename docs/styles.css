@@ -269,10 +269,23 @@ body {
 
 .hero-cta {
     display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-lg);
+    justify-content: flex-start;
+}
+
+.store-badges-row {
+    display: flex;
     gap: var(--spacing-md);
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: var(--spacing-lg);
+}
+
+.github-badge-wrapper {
+    display: flex;
+    width: 100%;
     justify-content: flex-start;
 }
 
@@ -281,7 +294,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: var(--transition);
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     height: 56px;
     width: 168px;
@@ -298,6 +311,7 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 
 /* Scale up Google Play badges to match other store badges */
@@ -1380,18 +1394,19 @@ button:focus-visible {
 
     /* Hero Section - Ensure visibility and centering */
     .hero {
-        min-height: 100vh;
+        min-height: auto;
         display: flex;
         align-items: center;
-        padding: 0;
+        padding: var(--spacing-xl) 0;
+        overflow: visible;
     }
 
     /* Cambiar a layout vertical */
     .hero .container {
         display: flex;
         flex-direction: column;
-        gap: var(--spacing-xl);
-        padding-top: 80px;
+        gap: var(--spacing-lg);
+        padding-top: var(--spacing-lg);
         padding-bottom: var(--spacing-xl);
     }
 
@@ -1403,8 +1418,8 @@ button:focus-visible {
 
     .hero-logo {
         justify-content: center;
-        margin-top: calc(var(--spacing-xxl) * 2);
-        margin-bottom: var(--spacing-lg);
+        margin-top: var(--spacing-md);
+        margin-bottom: var(--spacing-md);
         margin-left: 0;
         width: 100%;
         min-height: auto;
@@ -1414,6 +1429,8 @@ button:focus-visible {
         width: 280px !important;
         height: 280px !important;
         margin: 0 auto;
+        clip-path: inset(5% 0 5% 0);
+        transform: scale(0.95);
     }
 
     .hero-subtitle {
@@ -1429,6 +1446,11 @@ button:focus-visible {
 
     .hero-cta {
         margin-left: 0 !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .store-badges-row {
         justify-content: center;
     }
 
@@ -1498,6 +1520,11 @@ button:focus-visible {
         flex-wrap: wrap;
         gap: var(--spacing-sm);
         justify-content: center;
+        align-items: center;
+    }
+
+    .store-badges-row {
+        justify-content: center;
     }
 
     .store-badge-wrapper {
@@ -1566,6 +1593,18 @@ button:focus-visible {
     }
 }
 
+/* Small Tablet (577px to 768px) - Fix centering */
+@media (min-width: 577px) and (max-width: 768px) {
+    .hero-cta {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    .store-badges-row {
+        justify-content: center !important;
+    }
+}
+
 /* Mobile (576px and below) */
 @media (max-width: 576px) {
     :root {
@@ -1611,13 +1650,26 @@ button:focus-visible {
     }
 
     .hero-cta {
-        flex-direction: row;
+        flex-direction: column;
         width: 100%;
         gap: var(--spacing-sm);
         align-items: center;
         margin-left: 0 !important;
         justify-content: center;
-        flex-wrap: wrap;
+    }
+
+    .store-badges-row {
+        display: flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: auto;
+    }
+
+    .github-badge-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .hero-content {
@@ -1635,11 +1687,15 @@ button:focus-visible {
         justify-content: center;
         align-items: center;
         flex-shrink: 0;
+        min-width: 140px;
+        width: 140px;
+        height: 50px;
     }
 
     .store-badge img {
-        width: 150px;
-        height: auto;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .store-badge-wrapper {
@@ -1647,13 +1703,16 @@ button:focus-visible {
         justify-content: center;
         position: relative;
         flex-shrink: 0;
+        min-width: 140px;
+        margin-bottom: 24px;
     }
 
     .status-badge,
     .coming-soon-badge {
-        bottom: -14px;
-        font-size: 11px;
-        padding: 3px 10px;
+        bottom: -20px;
+        font-size: 10px;
+        padding: 4px 10px;
+        white-space: nowrap;
     }
 
     /* Navigation - Adjust positioning on small screens */

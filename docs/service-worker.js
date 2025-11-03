@@ -1,7 +1,7 @@
 // Service Worker for NONE App - Performance Optimized Caching
-// Version 1.6.3 - Update this version when you need to force cache refresh
+// Version 1.7.3 - Update this version when you need to force cache refresh
 
-const CACHE_VERSION = 'none-v1.6.3';
+const CACHE_VERSION = 'none-v1.7.3';
 const CACHE_NAMES = {
   static: `${CACHE_VERSION}-static`,
   images: `${CACHE_VERSION}-images`,

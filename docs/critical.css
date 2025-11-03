@@ -243,10 +243,23 @@ header[role="banner"] nav {
 
 .hero-cta {
     display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-lg);
+    justify-content: flex-start;
+}
+
+.store-badges-row {
+    display: flex;
     gap: var(--spacing-md);
     flex-wrap: wrap;
     align-items: center;
-    margin-bottom: var(--spacing-lg);
+}
+
+.github-badge-wrapper {
+    display: flex;
+    width: 100%;
     justify-content: flex-start;
 }
 
@@ -255,7 +268,7 @@ header[role="banner"] nav {
     align-items: center;
     justify-content: center;
     transition: var(--transition);
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     height: 56px;
     width: 168px;
@@ -267,6 +280,7 @@ header[role="banner"] nav {
     width: 100%;
     object-fit: cover;
     object-position: center;
+    border-radius: 10px;
 }
 
 /* Scale up Google Play badges to match other store badges */
@@ -307,6 +321,17 @@ header[role="banner"] nav {
     background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
 }
 
+/* Small Tablet (577px to 768px) - Fix centering */
+@media (min-width: 577px) and (max-width: 768px) {
+    .hero-cta {
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .store-badges-row {
+        justify-content: center !important;
+    }
+}
+
 /* Mobile responsive */
 @media (max-width: 768px) {
     .hero .container {
@@ -319,6 +344,32 @@ header[role="banner"] nav {
     }
     .hero-content {
         text-align: center;
+    }
+    .hero-cta {
+        flex-direction: column;
+        gap: var(--spacing-sm);
+        align-items: center;
+    }
+    .store-badges-row {
+        display: flex;
+        gap: 6px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        overflow-x: auto;
+    }
+    .github-badge-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .store-badge {
+        min-width: 140px;
+        width: 140px;
+        height: 50px;
+    }
+    .store-badge-wrapper {
+        min-width: 140px;
+        margin-bottom: 24px;
     }
     .github-star-button {
         position: fixed;
@@ -342,8 +393,8 @@ header[role="banner"] nav {
         font-size: 13px;
     }
     .status-badge {
-        bottom: -14px;
-        font-size: 11px;
-        padding: 3px 10px;
+        bottom: -20px;
+        font-size: 10px;
+        padding: 4px 10px;
     }
 }
