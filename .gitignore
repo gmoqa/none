@@ -101,3 +101,32 @@ package-lock.json
 
 # Claude Code project instructions
 CLAUDE.md
+
+# Deployment documentation (private)
+GOOGLE_PLAY_DEPLOYMENT.md
+DEPLOYMENT_CHECKLIST.md
+APP_STORE_DEPLOYMENT.md
+IOS_DEPLOYMENT_CHECKLIST.md
+build_release.sh
+PUSH_TO_GITHUB.sh
+GIT_PUSH_INSTRUCTIONS.md
+README_GIT_SETUP.md
+create_git_history.sh
+COMMIT_HISTORY.txt
+
+# Analysis and architecture documentation (private)
+ANALYSIS_*.md
+ANALYSIS_*.txt
+ARCHITECTURE_ANALYSIS.md
+REFACTORING_EXAMPLES.md
+
+# Python scripts and virtual environment
+clean_assets_metadata.py
+venv/
+*.pyc
+__pycache__/
+
+# Keystore files (NEVER commit these)
+*.keystore
+*.jks
+keystore.properties
