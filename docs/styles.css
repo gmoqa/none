@@ -1230,6 +1230,23 @@ button:focus-visible {
     font-size: var(--font-size-small) !important;
 }
 
+.footer-legal {
+    color: #9ca3af !important;
+    font-size: var(--font-size-small) !important;
+    margin-top: 8px;
+}
+
+.footer-legal a {
+    color: #9ca3af;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.footer-legal a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
 .footer-links h4 {
     font-size: var(--font-size-base);
     font-weight: 700;
@@ -1420,3 +1437,4 @@ button:focus-visible {
         transition-duration: 0.01ms !important;
     }
 }
+

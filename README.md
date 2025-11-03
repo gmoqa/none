@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="app/src/main/assets/images/logo.png" alt="None Logo" width="500">
+</p>
+
 # None - Simple Communication for Non-Verbal People
 
 A Multiplatform AAC (Augmentative and Alternative Communication) app. Free and open source, forever.

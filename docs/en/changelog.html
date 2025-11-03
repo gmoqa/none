@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NONE Changelog - Release history and updates">
+    <title>Changelog - NONE</title>
+
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+
+    <style>
+        .changelog-page {
+            min-height: 100vh;
+            padding: 80px 20px 60px;
+            background: #f8f9fa;
+        }
+
+        .changelog-container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .changelog-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .changelog-header h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+
+        .changelog-header p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+
+        .release {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .release-header {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .release-version {
+            font-size: 2rem;
+            font-weight: 800;
+            color: #667eea;
+        }
+
+        .release-badge {
+            display: inline-block;
+            padding: 6px 16px;
+            background: #667eea;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .release-date {
+            color: #666;
+            font-size: 0.95rem;
+            margin-left: auto;
+        }
+
+        .release-section {
+            margin-bottom: 25px;
+        }
+
+        .release-section h3 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .release-section ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .release-section li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .release-section li:before {
+            content: "•";
+            position: absolute;
+            left: 12px;
+            color: #667eea;
+            font-size: 1.5rem;
+            line-height: 1.2;
+        }
+
+        .feature-icon { color: #10b981; }
+        .fix-icon { color: #ef4444; }
+        .change-icon { color: #f59e0b; }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 40px;
+            transition: gap 0.2s;
+        }
+
+        .back-link:hover {
+            gap: 12px;
+        }
+
+        @media (max-width: 768px) {
+            .changelog-header h1 {
+                font-size: 2rem;
+            }
+
+            .release {
+                padding: 25px;
+            }
+
+            .release-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+
+            .release-date {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script src="../script.js" defer></script>
+
+    <!-- GitHub Star Button -->
+    <a href="https://github.com/gmoqa/none" class="github-star-button-page" target="_blank" rel="noopener">
+        <svg height="20" aria-hidden="true" viewBox="0 0 16 16" version="1.1" width="20" fill="currentColor">
+            <path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"></path>
+        </svg>
+        <span>Star on GitHub</span>
+    </a>
+
+    <!-- Changelog Page -->
+    <section class="changelog-page">
+        <div class="changelog-container">
+            <!-- Back link -->
+            <a href="index.html" class="back-link">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7"/>
+                </svg>
+                Back to home
+            </a>
+
+            <div class="changelog-header">
+                <h1>Changelog</h1>
+                <p>Release history and updates for NONE</p>
+            </div>
+
+            <!-- Version 0.1 - First Release -->
+            <div class="release">
+                <div class="release-header">
+                    <span class="release-version">v0.1</span>
+                    <span class="release-badge">Initial Release</span>
+                    <span class="release-date">November 2024</span>
+                </div>
+
+                <div class="release-section">
+                    <h3>Features</h3>
+                    <ul>
+                        <li>12 customizable buttons with pagination (2 pages of 6 buttons)</li>
+                        <li>Built-in audio recording (M4A format)</li>
+                        <li>Camera and gallery support for button images</li>
+                        <li>Edit/Use modes for configuration and daily use</li>
+                        <li>Multi-language support (ES, EN, FR, PT, DE, AR, IT, JA, ZH)</li>
+                        <li>Local storage with offline-first approach</li>
+                        <li>Optional Google Drive sync with automatic fallback</li>
+                        <li>Clean, distraction-free interface optimized for accessibility</li>
+                        <li>Kotlin Multiplatform architecture (Android + iOS)</li>
+                    </ul>
+                </div>
+
+                <div class="release-section">
+                    <h3>Technical</h3>
+                    <ul>
+                        <li>Android SDK 34 (min API 21 - Android 5.0+)</li>
+                        <li>SwiftUI for iOS implementation</li>
+                        <li>Shared constants (ButtonConstants, PreferencesKeys, ValidationConstants)</li>
+                        <li>MVP pattern with storage strategy pattern</li>
+                        <li>Material Design 3 components</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

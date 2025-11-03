@@ -72,12 +72,124 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://noneapp.org/"/>
   </url>
 
-  <!-- Página de donaciones -->
+  <!-- Página de donaciones - Español -->
   <url>
     <loc>https://noneapp.org/donate.html</loc>
-    <lastmod>2025-11-02</lastmod>
+    <lastmod>2025-11-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
+  </url>
+
+  <!-- Página de donaciones - Inglés -->
+  <url>
+    <loc>https://noneapp.org/en/donate.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página de donaciones - Portugués -->
+  <url>
+    <loc>https://noneapp.org/pt/donate.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página de donaciones - Francés -->
+  <url>
+    <loc>https://noneapp.org/fr/donate.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Página de donaciones - Alemán -->
+  <url>
+    <loc>https://noneapp.org/de/donate.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Política de Privacidad - Español -->
+  <url>
+    <loc>https://noneapp.org/privacy.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Política de Privacidad - Inglés -->
+  <url>
+    <loc>https://noneapp.org/en/privacy.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Política de Privacidad - Portugués -->
+  <url>
+    <loc>https://noneapp.org/pt/privacy.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Política de Privacidad - Francés -->
+  <url>
+    <loc>https://noneapp.org/fr/privacy.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Política de Privacidad - Alemán -->
+  <url>
+    <loc>https://noneapp.org/de/privacy.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Términos de Servicio - Español -->
+  <url>
+    <loc>https://noneapp.org/terms.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Términos de Servicio - Inglés -->
+  <url>
+    <loc>https://noneapp.org/en/terms.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Términos de Servicio - Portugués -->
+  <url>
+    <loc>https://noneapp.org/pt/terms.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Términos de Servicio - Francés -->
+  <url>
+    <loc>https://noneapp.org/fr/terms.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Términos de Servicio - Alemán -->
+  <url>
+    <loc>https://noneapp.org/de/terms.html</loc>
+    <lastmod>2025-11-03</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.5</priority>
   </url>
 
 </urlset>

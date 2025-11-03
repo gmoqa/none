@@ -253,3 +253,4 @@ if (languageButton && languageDropdown) {
         }
     });
 }
+
