@@ -1,57 +1,32 @@
-# None - AAC App for Autism
+# None - Simple Communication for Non-Verbal People
 
-A Kotlin Multiplatform AAC (Augmentative and Alternative Communication) tool designed for people with autism.
+A Multiplatform AAC (Augmentative and Alternative Communication) app. Free and open source, forever.
 
-**Website**: [noneapp.org](https://noneapp.org)
+**Website**: [https://noneapp.org](https://noneapp.org)
+
+## What is None?
+
+None helps non-verbal people communicate through customizable boards with images and audio. Simple, effective, and always free.
 
 ## Features
 
-- **Customizable buttons** with images and audio
-- **Built-in audio recording** (M4A format) for personalized sounds
-- **Camera & gallery support** for button images
-- **Works offline** - local storage by default
-- **Optional Google Drive sync** across devices with automatic fallback
-- **Edit/Use modes** - separate modes for configuration and daily use
-- **Clean, distraction-free interface** optimized for accessibility
-- **Multi-language support** (ES, EN, FR, PT, DE, AR, IT, JA, ZH)
-- **Cross-platform** - Android and iOS (Kotlin Multiplatform)
+- Customizable buttons with images and audio
+- Built-in audio recording for personalized sounds
+- Camera and gallery support for button images
+- Works offline - no internet required
+- Optional cloud sync across devices
+- Clean, distraction-free interface
+- Multi-language support (ES, EN, FR, PT, DE, AR, IT, JA, ZH)
+- Available on Android and iOS
 
-## Platforms
+## Download
 
-- **Android**: minSdk 21 (Android 5.0+), targetSdk 34
-- **iOS**: Coming soon
+- **Android**: [Google Play Store](https://play.google.com/store) (coming soon)
+- **iOS**: [App Store](https://apps.apple.com) (coming soon)
 
-## Quick Start
+## For Developers
 
-### Android
-
-1. Clone this repository
-2. Open in Android Studio
-3. Sync Gradle dependencies
-4. Run on device or emulator
-
-### iOS
-
-1. Open `iosApp/TeaBoard.xcodeproj` in Xcode
-2. Build and run on simulator or device
-
-The app works immediately in offline mode. Google Drive sync is optional and can be enabled in Settings.
-
-## Architecture
-
-- **Kotlin Multiplatform** - Shared business logic across platforms
-- **Shared constants** - Centralized configuration (ButtonConstants, PreferencesKeys, ValidationConstants)
-- **Storage strategy pattern** - Automatic fallback from Drive to local storage
-- **MVP pattern** - Clean separation of concerns
-
-## Tech Stack
-
-- Kotlin Multiplatform
-- Android SDK 34 (min API 21)
-- SwiftUI (iOS)
-- Google Drive API (optional)
-- Material Design 3 (Android)
-- Local JSON storage with cloud sync
+Want to contribute or build from source? See [DEVELOPERS.md](DEVELOPERS.md) for technical documentation.
 
 ## License
 
@@ -64,8 +39,9 @@ Named in honor of Salvador "None" Quinteros.
 ## Contact
 
 - Email: gu.quinteros@gmail.com
-- Website: [noneapp.org](https://noneapp.org)
+- Website: [https://noneapp.org](https://noneapp.org)
+- GitHub: [github.com/gmoqa/none](https://github.com/gmoqa/none)
 
 ---
 
-**Note**: This is an assistive tool and does not replace professional therapy. Always consult with autism specialists for comprehensive care.
+**Note**: This is an assistive tool and does not replace professional therapy. Always consult with specialists for comprehensive care.
